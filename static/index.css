@@ -1,0 +1,149 @@
+body{
+    background: url(./washing-machine-minimal-laundry-room-interior-design\ \(11\).jpg);
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Arial',sans-serif;
+    
+}
+.header{
+    text-align: center;
+    font-size: 36px;
+}
+/*.container{
+    background: white;
+    margin: 0 auto;
+    width: 50%;
+    height: 650px;
+    border: 2px solid white;
+    border-radius: 15px;
+    box-shadow: 10px 10px 5px 0px #000000;
+    float:left;
+}*/
+/*.side{
+    float: left;
+    height: 495px;
+    width:55%;
+    
+    background: url(./portrait-engineer-job-site-work-hours.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 15px;
+    
+    
+}*/
+form{
+    width:100%;
+    padding: 20px 40px;
+    box-sizing: border-box;
+    
+}
+input{
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    width: 200px;
+    height: 30px;
+}
+
+#Save{
+    background-color: blue;
+    
+}
+table, th, td {
+    border: 1px solid;
+   
+    
+  }
+#tranos{
+    width:20%;
+}
+
+#submit{
+    width: 100px;
+    border: 1px solid;
+}
+
+
+.header-section {
+    text-align: center;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+.form-container {
+    padding: 30px;
+    width: 60%;
+}
+
+form {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+label {
+    font-weight: bold;
+    color: #0066cc;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.9);
+    margin: 0 auto;
+    width: 60%;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+}
+.side {
+    background: url('./portrait-engineer-job-site-work-hours.jpg') no-repeat center;
+    background-size: cover;
+    border-radius: 15px 0 0 15px;
+    width: 40%;
+    height: 100%;
+}
+
+input, select {
+    width: calc(100% - 10px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.table-container, .table1 {
+    margin-top: 20px;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.header {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #0066cc;
+}
+
+.table1 {
+    background: rgba(255, 255, 255, 0.9);
+    margin: 0 auto;
+    width: 60%;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}

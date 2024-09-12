@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='index.css')}}">
+</head>
+<body>
+    <section class="header-section">
+        <img src="/static/R.png" alt="logo" id="tranos">
+            <h1 class="header">LAUNDRY</h1>
+    </section>
+    <section>
+        <h1 class="header">INPUT REQUEST</h1>
+        <div class="container">
+            <div class="side">
+                
+            </div>
+            <div class="form-container">
+                <form method="POST">
+                    <label for="employee_id">Enter ID:</label><br>
+                   <input type="text" name="employee_id" id="employee_id" placeholder="TRA-00123" required><br>
+                   <label for="name">Employee Name:</label><br>
+                   <input type="text" name="name" id="Name" required><br>
+                   <label for="type_cloth">Type Of Cloth:</label><br>
+                   <select name="cloth" id="clothing">
+                    <option value="Trouser">Trouser</option>
+                    <option value="Jacket">Jacket</option>
+                    <option value="PPE">PPE</option>
+                    <option value="Personal">Personal Clothing</option>
+
+                   </select><br><br>
+                   <label for="No_of_cloth">Number of cloth:</label><br>
+                   <input type="number" name="number" id="no_of_cloth" min="1" max="5"><br>
+                      
+                   <label for="date"> Date:</label><br>
+                   <input type="date" name="date" id="date"><br>
+
+                   <label for="pickup">Pickup date</label><br>
+                   <input type="text" name="pick_up"  id="picking" disabled>
+                   <div class="table-container">
+                    <table>
+                        <tr>
+                            <th>ID</th>
+                            <th>Name</th>
+                            <th>Type of cloth</th>
+                        </tr>
+                        <tbody id="show">
+            
+                        </tbody>
+                    </table>
+                </div>
+                   <input type="button" id="Save" value="save"><br>
+                   <input type="submit" value="submit" >
+                </form>
+            </div>
+            
+        </div>
+        <div class="table1">
+            <table>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Type of cloth</th>
+                </tr>
+                <tbody id="show">
+    
+                </tbody>
+            </table>
+        </div>
+    </section>
+    <section>
+            <div></div>
+    </section>
+</body>
+<script src="{{url_for('static',filename='index.js')}}"></script>
+</html>
